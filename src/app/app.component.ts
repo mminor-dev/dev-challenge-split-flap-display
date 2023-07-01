@@ -1,10 +1,11 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { NxWelcomeComponent } from './nx-welcome.component';
+
+import { AppDemoComponent } from './demo.component';
 
 @Component({
   standalone: true,
-  imports: [NxWelcomeComponent, RouterModule],
+  imports: [RouterModule, AppDemoComponent],
   selector: 'split-flap-display-root',
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.scss'],
