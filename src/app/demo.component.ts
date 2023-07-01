@@ -51,7 +51,7 @@ import { SplitFlapComponent } from 'mm-dc/split-flap';
   `,
 })
 export class AppDemoComponent {
-  protected vm: string = '';
+  protected vm = '';
 
   get displayChars() {
     return this.vm.split('');
